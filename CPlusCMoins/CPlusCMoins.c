@@ -83,6 +83,7 @@ int Gameplaying()
     int choice = 0;
     bool yes = false;
     int fail = 0;
+    gamenb++;
     if (help)
     {
         while (secret != choice)
@@ -195,7 +196,7 @@ int Gameplaying()
         }
         else if (strcmp(str, "n") == 0)
         {
-            printf("\n\n*=*=*=*=*=*=*=*=*=*=*=*\n\nThank you for playing my game\n\n*=*=*=*=*=*=*=*=*=*=*=*\n\n");
+            printf("\n\n*=*=*=*=*=*=*=*=*=*=*=*\n\nThank you for playing my game\n\n*=*=*=*=*=*=*=*=*=*=*=*\n\nYou played %d games\n\n", gamenb);
             yes = true;
         }
         else
