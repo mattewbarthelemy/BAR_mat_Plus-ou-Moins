@@ -96,7 +96,7 @@ int Gameplaying()
 
                 if (fail >= 3)
                 {
-                    printf("\nnYou know what, let's stop there\n\n\n\n\n\n\nnBye !\n\n\n\n\n\n\n");
+                    printf("\nnYou know what, let's stop there\n\n\n\n\n\n\nBye !\n\n\n\n\n\n\n");
                     exit(0);
                 }
 
